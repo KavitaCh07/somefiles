@@ -1,0 +1,135 @@
+.overlay {
+  position: absolute;
+  background: rgba(49, 49, 49, 0.8);
+  height: 86.7vh;
+  top: -2rem;
+  left: -4rem;
+  right: -3.32rem;
+  bottom: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-inner-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 3;
+  position: relative;
+}
+
+.add-site {
+  color: #3C4857;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  padding-bottom: 1rem;
+}
+
+.from-box {
+  flex-direction: column;
+}
+
+label {
+  color: #949CA5;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.modal-input {
+  border: 1px solid #F5F7FB;
+  border-radius: 4px;
+  background-color: #F5F7FB;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+
+.selector {
+  position: relative;
+}
+
+.pathCopy {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 1rem;
+}
+
+.site-password {
+  position: relative;
+}
+
+.site-password-eye {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+}
+
+.site-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.reset-button {
+  /* align-items: flex-end; */
+  /* align-items: end; */
+  float: right;
+  display: flex;
+  gap: 1rem;
+}
+
+.reset-button {
+  padding-top: 1.6rem;
+}
+
+.reset-btn {
+  border: 1px solid #0E85FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0.4rem 2.5rem;
+}
+
+.reset {
+  color: #0E85FF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.save-btn {
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0E85FF;
+  padding: 0.5rem 2.6rem;
+  border: none;
+}
+
+.save {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}

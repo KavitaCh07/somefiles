@@ -1,0 +1,37 @@
+.sidebar {
+    background: #2892FF;
+    position: fixed;
+    margin: 0;
+    width: 8rem;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+}
+
+.burger-logo {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    height: 1.8rem;
+    margin-bottom: 7rem;
+}
+
+.home-icon {
+    display: flex;
+    justify-content: center;
+    border-radius: -9px;
+    width: 100%;
+    border-left: 4px solid #FFA043;
+    padding: 20px 0;
+}
+
+.round {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #FFA043;
+    border-radius: 50%;
+    top: 13rem;
+    left: 7.5rem;
+}

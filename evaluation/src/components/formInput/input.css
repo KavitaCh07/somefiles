@@ -1,0 +1,20 @@
+.input-field {
+    box-sizing: border-box;
+    border: 0.55px solid rgba(208,208,208,0.5);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 12px 20px;
+    margin:  8px 0;
+    display: inline-block;
+    outline: none;
+    width: 100%;
+}
+
+input:placeholder-shown {
+    color: #787E8C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+}

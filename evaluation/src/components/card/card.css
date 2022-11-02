@@ -1,0 +1,75 @@
+.card-full-container {
+    display: flex;
+    /* background: aliceblue; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 91.6%;
+    position: relative;
+    top: 12rem;
+}
+
+.card-container {
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 18px 10px rgb(0 0 0 / 4%);
+}
+
+.media-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.same-line {
+    /* text-align: right; */
+    display: flex;
+    justify-content: right;
+}
+
+.social-media-logo {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 9rem;
+    background-color: blanchedalmond;
+    padding: 10px 20px; 
+}
+
+.social-media-name{
+    color: #0e85ff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-align: right;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+
+  .copy-text{
+    color: #0e85ff;
+    font-size: 12.6px;
+    letter-spacing: 0;
+    line-height: 17px;
+  }
+
+
+  .link-part{
+    background-color: #f5f7fb65;
+    padding: 10px;
+  }
+
+  .actualLink{
+    color: #3c4857;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: center;
+  }
